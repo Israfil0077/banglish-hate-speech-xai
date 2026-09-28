@@ -1,0 +1,129 @@
+{
+  "step": "rationale_check",
+  "notebook": "07_rationale_evaluation.ipynb",
+  "date": "2026-09-28T18:14:29",
+  "seed": 42,
+  "annotators": [
+    "Annotator A",
+    "Annotator B"
+  ],
+  "sample_size": 100,
+  "annotated": {
+    "Annotator A": 93,
+    "Annotator B": 57
+  },
+  "nothing_hateful": {
+    "Annotator A": 2,
+    "Annotator B": 2
+  },
+  "annotated_by_both": 55,
+  "words_compared": 551,
+  "cohen_kappa_word_level": 0.5588945622851453,
+  "raw_word_agreement": 0.7840290381125227,
+  "comments_with_identical_marks": 0.2909090909090909,
+  "plausibility": [
+    {
+      "Reference": "Annotator A",
+      "Comments": 91,
+      "Method": "LIME",
+      "AUPRC": 0.804576857046058,
+      "Token F1": 0.6827628720485863,
+      "IOU F1": 0.5274725274725275
+    },
+    {
+      "Reference": "Annotator A",
+      "Comments": 91,
+      "Method": "SHAP",
+      "AUPRC": 0.8078083848345584,
+      "Token F1": 0.714726146869004,
+      "IOU F1": 0.6043956043956044
+    },
+    {
+      "Reference": "Annotator A",
+      "Comments": 91,
+      "Method": "Random",
+      "AUPRC": 0.6268384873404648,
+      "Token F1": 0.5177231498660071,
+      "IOU F1": 0.3516483516483517
+    },
+    {
+      "Reference": "Annotator B",
+      "Comments": 55,
+      "Method": "LIME",
+      "AUPRC": 0.7769894538794934,
+      "Token F1": 0.6584315684315686,
+      "IOU F1": 0.5454545454545454
+    },
+    {
+      "Reference": "Annotator B",
+      "Comments": 55,
+      "Method": "SHAP",
+      "AUPRC": 0.776960411881499,
+      "Token F1": 0.6902364302364302,
+      "IOU F1": 0.6
+    },
+    {
+      "Reference": "Annotator B",
+      "Comments": 55,
+      "Method": "Random",
+      "AUPRC": 0.5673413234502077,
+      "Token F1": 0.46626706626706627,
+      "IOU F1": 0.32727272727272727
+    }
+  ],
+  "faithfulness": [
+    {
+      "Method": "Human",
+      "Comments": 91,
+      "Comp. (k = human)": 0.4094914495944977,
+      "Suff. (k = human)": -0.0226969663053751,
+      "Comp. (AOPC)": NaN,
+      "Suff. (AOPC)": NaN
+    },
+    {
+      "Method": "LIME",
+      "Comments": 91,
+      "Comp. (k = human)": 0.47127649188041687,
+      "Suff. (k = human)": -0.1258421540260315,
+      "Comp. (AOPC)": 0.4122713804244995,
+      "Suff. (AOPC)": -0.11720409989356995
+    },
+    {
+      "Method": "SHAP",
+      "Comments": 91,
+      "Comp. (k = human)": 0.4822733402252197,
+      "Suff. (k = human)": -0.13303016126155853,
+      "Comp. (AOPC)": 0.4231296479701996,
+      "Suff. (AOPC)": -0.1310724914073944
+    },
+    {
+      "Method": "Random",
+      "Comments": 91,
+      "Comp. (k = human)": 0.1568058729171753,
+      "Suff. (k = human)": 0.1760907918214798,
+      "Comp. (AOPC)": 0.08378513157367706,
+      "Suff. (AOPC)": 0.2663428783416748
+    }
+  ],
+  "faithfulness_comments": 91,
+  "mean_p_hate_full": 0.6204179525375366,
+  "settings": {
+    "lime_samples": 1000,
+    "shap_max_evals": 500,
+    "aopc_fractions": [
+      0.1,
+      0.2,
+      0.3,
+      0.5
+    ],
+    "lime_version": "0.2.0.1",
+    "shap_version": "0.52.0",
+    "explained_output": "binary head, probability of hate",
+    "unannotated_rows": "excluded (not treated as no rationale)"
+  },
+  "figure_comments": [
+    "test_00822",
+    "test_01274",
+    "test_02098"
+  ]
+}

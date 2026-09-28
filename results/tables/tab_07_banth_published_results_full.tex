@@ -1,0 +1,42 @@
+\begin{tabular}{llrrrrr}
+\toprule
+Group & Model & Binary Macro-F1 & Binary Macro-Acc. & Multi-label Macro-F1 & Subset Acc. & Hamming Loss \\
+\midrule
+Fine-tuned (Bangla LM) & BanglaBERT & 76.50 & 81.04 & 20.82 & 54.08 & 7.26 \\
+Fine-tuned (Bangla LM) & BanglishBERT & 75.07 & 80.62 & 20.61 & 52.74 & 7.42 \\
+Fine-tuned (Bangla LM) & BanglaHateBERT & 70.92 & 77.54 & 11.34 & 49.83 & 7.97 \\
+Fine-tuned (Bangla LM) & VAC-BERT & 74.19 & 79.76 & 18.45 & 52.56 & 7.50 \\
+Fine-tuned (Indian LM) & MuRIL & 75.29 & 80.83 & 14.58 & 53.98 & 7.55 \\
+Fine-tuned (Indian LM) & IndicBERT & 74.51 & 80.48 & 13.39 & 51.56 & 7.88 \\
+Fine-tuned (Multilingual LM) & mBERT & 74.97 & 80.37 & 28.24 & 52.19 & 7.78 \\
+Fine-tuned (Multilingual LM) & XLM-R & 77.35 & 81.37 & 29.29 & 53.28 & 7.23 \\
+Fine-tuned (Character LM) & CharBERT & 76.61 & 80.91 & 19.66 & 53.21 & 7.44 \\
+Further pre-trained (TB LM) & TB-BERT & 76.27 & 79.25 & 30.17 & 54.19 & 7.18 \\
+Further pre-trained (TB LM) & TB-mBERT & 77.36 & 82.57 & 27.07 & 54.71 & 7.28 \\
+Further pre-trained (TB LM) & TB-XLM-R & 77.04 & 81.29 & 29.04 & 52.86 & 7.26 \\
+Further pre-trained (TB LM) & TB-BanglaBERT & 77.12 & 81.61 & 22.52 & 53.97 & 7.37 \\
+Further pre-trained (TB LM) & TB-BanglishBERT & 77.12 & 81.39 & 21.41 & 52.79 & 7.42 \\
+LLM prompting (Vanilla) & GPT 3.5 & 61.44 & 64.02 & 24.12 & 18.27 & 19.77 \\
+LLM prompting (Vanilla) & GPT 4o & 70.05 & 74.30 & 36.07 & 22.60 & 16.91 \\
+LLM prompting (Vanilla) & GPT 3.5 + Few-shot & 61.85 & 65.65 & 23.86 & 16.85 & 20.36 \\
+LLM prompting (Vanilla) & GPT 4o + Few-shot & 68.77 & 74.18 & 39.53 & 26.76 & 14.16 \\
+LLM prompting (CoT) & GPT 3.5 + CoT & 61.87 & 65.77 & 25.61 & 20.34 & 19.28 \\
+LLM prompting (CoT) & GPT 4o + CoT & 69.87 & 74.14 & 35.97 & 22.60 & 16.64 \\
+LLM prompting (CoT) & GPT 3.5 + CoT + Few-shot & 63.30 & 67.80 & 28.35 & 20.15 & 19.15 \\
+LLM prompting (CoT) & GPT 4o + CoT + Few-shot & 69.50 & 74.94 & 36.49 & 21.10 & 17.36 \\
+LLM prompting (Explanation) & GPT 3.5 + Exp & 61.69 & 65.16 & 22.61 & 17.33 & 19.84 \\
+LLM prompting (Explanation) & GPT 4o + Exp & 69.91 & 74.16 & 32.58 & 19.12 & 17.94 \\
+LLM prompting (Explanation) & GPT 3.5 + Exp + Few-shot & 62.69 & 66.60 & 25.00 & 18.36 & 19.57 \\
+LLM prompting (Explanation) & GPT 4o + Exp + Few-shot & 70.70 & 75.15 & 35.61 & 21.33 & 17.15 \\
+LLM prompting (HARE) & GPT 3.5 + HARE & 62.64 & 66.77 & 25.99 & 20.90 & 18.94 \\
+LLM prompting (HARE) & GPT 4o + HARE & 69.71 & 74.75 & 36.67 & 20.80 & 17.10 \\
+LLM prompting (HARE) & GPT 3.5 + HARE + Few-shot & 62.20 & 66.72 & 24.68 & 20.06 & 19.18 \\
+LLM prompting (HARE) & GPT 4o + HARE + Few-shot & 69.12 & 74.75 & 34.06 & 21.59 & 17.37 \\
+LLM prompting (Translation) & GPT 4o + Translation [BAN] & 69.63 & 72.70 & 35.72 & 23.28 & 16.73 \\
+LLM prompting (Translation) & GPT 4o + Translation [ENG] & 69.38 & 72.96 & 34.28 & 20.72 & 16.91 \\
+LLM prompting (Translation) & GPT 4o + Translation [BAN] + CoT & 69.01 & 72.66 & 36.22 & 21.35 & 17.36 \\
+LLM prompting (Translation) & GPT 4o + Translation [ENG] + CoT & 69.74 & 74.87 & 35.94 & 21.19 & 16.91 \\
+LLM prompting (Translation) & GPT 4o + Translation [BAN] + Exp & 70.34 & 73.65 & 36.20 & 21.54 & 16.46 \\
+LLM prompting (Translation) & GPT 4o + Translation [ENG] + Exp & 70.19 & 73.84 & 36.25 & 23.92 & 16.23 \\
+\bottomrule
+\end{tabular}

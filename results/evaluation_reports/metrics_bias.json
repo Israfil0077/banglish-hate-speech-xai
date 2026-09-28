@@ -1,0 +1,1210 @@
+{
+  "step": "keyword_bias",
+  "notebook": "09_keyword_bias.ipynb",
+  "date": "2026-09-28T19:14:34",
+  "seed": 42,
+  "threshold": 0.58,
+  "train_hate_rate_pct": 28.431339736938988,
+  "sentences": [
+    {
+      "group": "A",
+      "word": "kukur",
+      "sentence": "amar kukurer baccha hoyeche",
+      "p_hate": 0.9732915163040161,
+      "flagged": 1,
+      "shap_top_word": "kukurer",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.4462383156642318
+    },
+    {
+      "group": "A",
+      "word": "kukur",
+      "sentence": "protidin sokal e kukur ke hattpar korte niye jai",
+      "p_hate": 0.9584600329399109,
+      "flagged": 1,
+      "shap_top_word": "kukur",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.47951642191037536
+    },
+    {
+      "group": "A",
+      "word": "kukur",
+      "sentence": "oi kukur ta khub cute, lomba lej ache",
+      "p_hate": 0.9678385257720947,
+      "flagged": 1,
+      "shap_top_word": "kukur",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.6498182227369398
+    },
+    {
+      "group": "A",
+      "word": "kuttar",
+      "sentence": "oder barite ekta kuttar bacha ache, khub cute",
+      "p_hate": 0.9685600996017456,
+      "flagged": 1,
+      "shap_top_word": "bacha",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": 0.3298625387251377
+    },
+    {
+      "group": "A",
+      "word": "kuttar",
+      "sentence": "kuttar khabar kinte pet shop e gelam",
+      "p_hate": 0.9605096578598022,
+      "flagged": 1,
+      "shap_top_word": "kuttar",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.8648626697249711
+    },
+    {
+      "group": "A",
+      "word": "baccha",
+      "sentence": "amar choto baccha school e jay",
+      "p_hate": 0.9476723670959473,
+      "flagged": 1,
+      "shap_top_word": "baccha",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.5289326701313257
+    },
+    {
+      "group": "A",
+      "word": "baccha",
+      "sentence": "bus e onek baccha uthlo aj",
+      "p_hate": 0.36500388383865356,
+      "flagged": 0,
+      "shap_top_word": "baccha",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.592657508328557
+    },
+    {
+      "group": "A",
+      "word": "baccha",
+      "sentence": "park e baccha ra khela korche",
+      "p_hate": 0.8178656101226807,
+      "flagged": 1,
+      "shap_top_word": "baccha",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.8029198695439845
+    },
+    {
+      "group": "A",
+      "word": "tui",
+      "sentence": "tui kal amar basay ashbi?",
+      "p_hate": 0.08555634319782257,
+      "flagged": 0,
+      "shap_top_word": "tui",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.20506174070760608
+    },
+    {
+      "group": "A",
+      "word": "tui",
+      "sentence": "tui ki ajke free acho?",
+      "p_hate": 0.029986508190631866,
+      "flagged": 0,
+      "shap_top_word": "tui",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.11478436971083283
+    },
+    {
+      "group": "A",
+      "word": "tui",
+      "sentence": "tui koto shundor gaan gaili re",
+      "p_hate": 0.272024542093277,
+      "flagged": 0,
+      "shap_top_word": "gaili",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": 0.09618743346072733
+    },
+    {
+      "group": "A",
+      "word": "tor",
+      "sentence": "tor kotha shune amar hashi paise",
+      "p_hate": 0.2140335887670517,
+      "flagged": 0,
+      "shap_top_word": "tor",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.1447393805719912
+    },
+    {
+      "group": "A",
+      "word": "tor",
+      "sentence": "tor notun phone ta darun hoyeche",
+      "p_hate": 0.07276838272809982,
+      "flagged": 0,
+      "shap_top_word": "tor",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.0615164905320853
+    },
+    {
+      "group": "A",
+      "word": "tore",
+      "sentence": "ei tore ekta kotha bolar chilo",
+      "p_hate": 0.0979066863656044,
+      "flagged": 0,
+      "shap_top_word": "tore",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.1276128445751965
+    },
+    {
+      "group": "A",
+      "word": "tore",
+      "sentence": "tore dekhe onek din por bhalo laglo",
+      "p_hate": 0.02203226462006569,
+      "flagged": 0,
+      "shap_top_word": "tore",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.02789963292889297
+    },
+    {
+      "group": "A",
+      "word": "pagol",
+      "sentence": "ei gaan ta shune pagol hoye gelam, eto sundor",
+      "p_hate": 0.8574102520942688,
+      "flagged": 1,
+      "shap_top_word": "pagol",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.7162504238076508
+    },
+    {
+      "group": "A",
+      "word": "pagol",
+      "sentence": "se cricket er jonno pagol",
+      "p_hate": 0.8822250962257385,
+      "flagged": 1,
+      "shap_top_word": "pagol",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.5842455411329865
+    },
+    {
+      "group": "A",
+      "word": "pagol",
+      "sentence": "amra duijon e boi porar bepare pagol",
+      "p_hate": 0.9082930684089661,
+      "flagged": 1,
+      "shap_top_word": "pagol",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.6394714619964361
+    },
+    {
+      "group": "A",
+      "word": "mohila",
+      "sentence": "mohila der jonno notun hospital hoyeche",
+      "p_hate": 0.6009497046470642,
+      "flagged": 1,
+      "shap_top_word": "mohila",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.5480362949892879
+    },
+    {
+      "group": "A",
+      "word": "mohila",
+      "sentence": "oi mohila ta amar khalamoni hon",
+      "p_hate": 0.7257458567619324,
+      "flagged": 1,
+      "shap_top_word": "mohila",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.60690987855196
+    },
+    {
+      "group": "A",
+      "word": "mohila",
+      "sentence": "mohila club e ajke ekta programme ache",
+      "p_hate": 0.7572562098503113,
+      "flagged": 1,
+      "shap_top_word": "mohila",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.5650875756982714
+    },
+    {
+      "group": "A",
+      "word": "hindu",
+      "sentence": "amader class e hindu bondhura o amader shathe thake",
+      "p_hate": 0.1063188686966896,
+      "flagged": 0,
+      "shap_top_word": "hindu",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.10184950358234346
+    },
+    {
+      "group": "A",
+      "word": "hindu",
+      "sentence": "hindu dhormer itihash niye ekta boi porlam",
+      "p_hate": 0.38624244928359985,
+      "flagged": 0,
+      "shap_top_word": "ekta",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": 0.10293191263917834
+    },
+    {
+      "group": "A",
+      "word": "hindu",
+      "sentence": "amar hindu bondhura o amar shathe iftar e ashe",
+      "p_hate": 0.09636510908603668,
+      "flagged": 0,
+      "shap_top_word": "hindu",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.07667428627610207
+    },
+    {
+      "group": "A",
+      "word": "muslim",
+      "sentence": "muslim o hindu protibeshira mile club ta cholay",
+      "p_hate": 0.23161423206329346,
+      "flagged": 0,
+      "shap_top_word": "club",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": 0.044189404929056764
+    },
+    {
+      "group": "A",
+      "word": "muslim",
+      "sentence": "muslim shomproday er ekta programme cilo gramme",
+      "p_hate": 0.3487560451030731,
+      "flagged": 0,
+      "shap_top_word": "ekta",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": -0.009462316520512104
+    },
+    {
+      "group": "A",
+      "word": "christian",
+      "sentence": "christian der christmas celebration ta khub sundor hoy",
+      "p_hate": 0.16545821726322174,
+      "flagged": 0,
+      "shap_top_word": "christmas",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": 0.03556918166577816
+    },
+    {
+      "group": "A",
+      "word": "christian",
+      "sentence": "amader college e christian teacher ra o pray kore",
+      "p_hate": 0.13477590680122375,
+      "flagged": 0,
+      "shap_top_word": "christian",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.09434372093528509
+    },
+    {
+      "group": "A",
+      "word": "bouddho",
+      "sentence": "bouddho dhormer ekta mondir amader elakay ache",
+      "p_hate": 0.04586266353726387,
+      "flagged": 0,
+      "shap_top_word": "ekta",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": -0.01096110709477216
+    },
+    {
+      "group": "A",
+      "word": "bouddho",
+      "sentence": "bouddho purnima te amra shobai ghurte gelam",
+      "p_hate": 0.21272224187850952,
+      "flagged": 0,
+      "shap_top_word": "ghurte",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": 0.051336672622710466
+    },
+    {
+      "group": "A",
+      "word": "india",
+      "sentence": "india theke amar mama ashche",
+      "p_hate": 0.0918697863817215,
+      "flagged": 0,
+      "shap_top_word": "india",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.023189416620880365
+    },
+    {
+      "group": "A",
+      "word": "india",
+      "sentence": "india te ekbar berate gechilam, khub bhalo legechilo",
+      "p_hate": 0.14069005846977234,
+      "flagged": 0,
+      "shap_top_word": "india",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.08841448277235031
+    },
+    {
+      "group": "A",
+      "word": "india",
+      "sentence": "india r bangladesh er cricket match ajke",
+      "p_hate": 0.29563644528388977,
+      "flagged": 0,
+      "shap_top_word": "cricket",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": 0.05734361428767443
+    },
+    {
+      "group": "A",
+      "word": "pakistan",
+      "sentence": "pakistan er against match ta khub interesting hoyeche",
+      "p_hate": 0.09894659370183945,
+      "flagged": 0,
+      "shap_top_word": "match",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": -0.005457708146423101
+    },
+    {
+      "group": "A",
+      "word": "pakistan",
+      "sentence": "pakistan theke amar dadar bondhu eshechilo",
+      "p_hate": 0.07436569780111313,
+      "flagged": 0,
+      "shap_top_word": "dadar",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": -0.14723636023700237
+    },
+    {
+      "group": "A",
+      "word": "china",
+      "sentence": "china theke notun product ashche market e",
+      "p_hate": 0.03050205484032631,
+      "flagged": 0,
+      "shap_top_word": "market",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": -0.043993819737806916
+    },
+    {
+      "group": "A",
+      "word": "china",
+      "sentence": "china tour package ta dekhlam, kom taka lagbe",
+      "p_hate": 0.06313490122556686,
+      "flagged": 0,
+      "shap_top_word": "china",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": -0.03286223369650543
+    },
+    {
+      "group": "A",
+      "word": "adivasi",
+      "sentence": "adivasi shomproday er culture niye documentary dekhlam",
+      "p_hate": 0.0626743733882904,
+      "flagged": 0,
+      "shap_top_word": "documentary",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": -0.04861023207195103
+    },
+    {
+      "group": "A",
+      "word": "adivasi",
+      "sentence": "adivasi der hater kaj gulo khub sundor hoy",
+      "p_hate": 0.032344330102205276,
+      "flagged": 0,
+      "shap_top_word": "gulo",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": -0.0431762863881886
+    },
+    {
+      "group": "A",
+      "word": "bihari",
+      "sentence": "bihari colony te amar ekjon bondhu thake",
+      "p_hate": 0.042802147567272186,
+      "flagged": 0,
+      "shap_top_word": "te",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": -0.05798935960046947
+    },
+    {
+      "group": "A",
+      "word": "bihari",
+      "sentence": "bihari khabar khete gelam gotokal",
+      "p_hate": 0.04742587357759476,
+      "flagged": 0,
+      "shap_top_word": "gelam",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": -0.14682800462469459
+    },
+    {
+      "group": "A",
+      "word": "awami",
+      "sentence": "kal bnp ar awami league dui dol er meeting chilo",
+      "p_hate": 0.37822940945625305,
+      "flagged": 0,
+      "shap_top_word": "dui",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": 0.13138436106964946
+    },
+    {
+      "group": "A",
+      "word": "awami",
+      "sentence": "awami league er ekta rally hocche aj",
+      "p_hate": 0.3447742760181427,
+      "flagged": 0,
+      "shap_top_word": "ekta",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": 0.0031287167221307755
+    },
+    {
+      "group": "A",
+      "word": "bnp",
+      "sentence": "bnp er ekta programme cilo college e",
+      "p_hate": 0.17766813933849335,
+      "flagged": 0,
+      "shap_top_word": "ekta",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": -0.1786581645719707
+    },
+    {
+      "group": "A",
+      "word": "bnp",
+      "sentence": "bnp shomorthok ra rasta te mich korche",
+      "p_hate": 0.042009055614471436,
+      "flagged": 0,
+      "shap_top_word": "rasta",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": -0.07502810540609062
+    },
+    {
+      "group": "A",
+      "word": "jamaat",
+      "sentence": "jamaat er ekta statement news e ashche",
+      "p_hate": 0.05098814517259598,
+      "flagged": 0,
+      "shap_top_word": "ekta",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": 0.014216352719813585
+    },
+    {
+      "group": "A",
+      "word": "jamaat",
+      "sentence": "jamaat shomporke news e report hoyeche",
+      "p_hate": 0.044514428824186325,
+      "flagged": 0,
+      "shap_top_word": "jamaat",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": -0.00014504324644804
+    },
+    {
+      "group": "A",
+      "word": "sarkar",
+      "sentence": "sarkar notun rasta banacche amader elakay",
+      "p_hate": 0.01621503196656704,
+      "flagged": 0,
+      "shap_top_word": "rasta",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": -0.04850216908380389
+    },
+    {
+      "group": "A",
+      "word": "sarkar",
+      "sentence": "sarkar theke notun subidha diyeche student der jonno",
+      "p_hate": 0.06119922548532486,
+      "flagged": 0,
+      "shap_top_word": "subidha",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": -0.033395806327462196
+    },
+    {
+      "group": "A",
+      "word": "meye",
+      "sentence": "amar boro meye university te pore",
+      "p_hate": 0.672331690788269,
+      "flagged": 1,
+      "shap_top_word": "meye",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.5587024721316993
+    },
+    {
+      "group": "A",
+      "word": "meye",
+      "sentence": "meye ra ajkal onek field e egiye jacche",
+      "p_hate": 0.36829209327697754,
+      "flagged": 0,
+      "shap_top_word": "meye",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.3421556317480281
+    },
+    {
+      "group": "A",
+      "word": "chele",
+      "sentence": "amar chotto chele football khelte pochondo kore",
+      "p_hate": 0.33709442615509033,
+      "flagged": 0,
+      "shap_top_word": "chele",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.19227841962128878
+    },
+    {
+      "group": "A",
+      "word": "chele",
+      "sentence": "chele ta khub bhodro, shobai take pochondo kore",
+      "p_hate": 0.3663630187511444,
+      "flagged": 0,
+      "shap_top_word": "chele",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.3762192805297673
+    },
+    {
+      "group": "A",
+      "word": "hijra",
+      "sentence": "amader elakay hijra shomproday er jonno community center hoyeche",
+      "p_hate": 0.037892427295446396,
+      "flagged": 0,
+      "shap_top_word": "hijra",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.03253946267068386
+    },
+    {
+      "group": "A",
+      "word": "hijra",
+      "sentence": "hijra der odhikar niye ekta seminar chilo university te",
+      "p_hate": 0.07224299758672714,
+      "flagged": 0,
+      "shap_top_word": "ekta",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": 0.028833936899900436
+    },
+    {
+      "group": "A",
+      "word": "mota",
+      "sentence": "daktar bolechen ektu mota hoye gechi, bhalo lagche",
+      "p_hate": 0.6462370157241821,
+      "flagged": 1,
+      "shap_top_word": "mota",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.4117686999961734
+    },
+    {
+      "group": "A",
+      "word": "mota",
+      "sentence": "mota chal diye bhat ranna bhalo hoy",
+      "p_hate": 0.5583570599555969,
+      "flagged": 0,
+      "shap_top_word": "mota",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.5620569596067071
+    },
+    {
+      "group": "A",
+      "word": "mota",
+      "sentence": "oder gorur shorir ta mota ar shashtho bhalo",
+      "p_hate": 0.597079336643219,
+      "flagged": 1,
+      "shap_top_word": "mota",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.5579038262367249
+    },
+    {
+      "group": "A",
+      "word": "patla",
+      "sentence": "she khub patla, model hote parbe mone hoy",
+      "p_hate": 0.21190567314624786,
+      "flagged": 0,
+      "shap_top_word": "patla,",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.12014287244528532
+    },
+    {
+      "group": "A",
+      "word": "patla",
+      "sentence": "patla roti ranna korte amar bhalo lage",
+      "p_hate": 0.02600678615272045,
+      "flagged": 0,
+      "shap_top_word": "roti",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": -0.02765737008303404
+    },
+    {
+      "group": "A",
+      "word": "lomba",
+      "sentence": "ei chele ta khub lomba, basketball khela uchit",
+      "p_hate": 0.6168781518936157,
+      "flagged": 1,
+      "shap_top_word": "chele",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": 0.14804904535412788
+    },
+    {
+      "group": "A",
+      "word": "lomba",
+      "sentence": "lomba boi ta porte shomoy lagbe",
+      "p_hate": 0.3600388765335083,
+      "flagged": 0,
+      "shap_top_word": "lomba",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": 0.24446869757957757
+    },
+    {
+      "group": "A",
+      "word": "khato",
+      "sentence": "amar bhai khato kintu khub shokti",
+      "p_hate": 0.02546808309853077,
+      "flagged": 0,
+      "shap_top_word": "khato",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": -0.009286291082389653
+    },
+    {
+      "group": "A",
+      "word": "khato",
+      "sentence": "khato height er jonno special seat rakha hoyeche bus e",
+      "p_hate": 0.21900326013565063,
+      "flagged": 0,
+      "shap_top_word": "height",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": 0.0077986642718315125
+    },
+    {
+      "group": "A",
+      "word": "kalo",
+      "sentence": "amar priyo jama ta kalo rong er",
+      "p_hate": 0.15418487787246704,
+      "flagged": 0,
+      "shap_top_word": "rong",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": -0.035264382837340236
+    },
+    {
+      "group": "A",
+      "word": "kalo",
+      "sentence": "kalo cha khete amar khub bhalo lage",
+      "p_hate": 0.0333368256688118,
+      "flagged": 0,
+      "shap_top_word": "khete",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": -0.03744726465083659
+    },
+    {
+      "group": "A",
+      "word": "kalo",
+      "sentence": "tar chul gulo ekdom kalo ar shundor",
+      "p_hate": 0.9240047931671143,
+      "flagged": 1,
+      "shap_top_word": "chul",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": -0.12450872827321291
+    },
+    {
+      "group": "A",
+      "word": "buro",
+      "sentence": "amar dadu ekjon buro manush, kintu khub active",
+      "p_hate": 0.08663206547498703,
+      "flagged": 0,
+      "shap_top_word": "dadu",
+      "risky_word_is_top": 0.0,
+      "risky_word_shap": -0.020956232910975814
+    },
+    {
+      "group": "A",
+      "word": "buro",
+      "sentence": "buro golpo shunte khub bhalo lage bikeley",
+      "p_hate": 0.03494669869542122,
+      "flagged": 0,
+      "shap_top_word": "buro",
+      "risky_word_is_top": 1.0,
+      "risky_word_shap": -0.04186668456532061
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "eid ar puja te amra shobai milemishe thaki",
+      "p_hate": 0.5089483261108398,
+      "flagged": 0,
+      "shap_top_word": "puja",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "aj bristi hocche, ghore thakbo",
+      "p_hate": 0.17384852468967438,
+      "flagged": 0,
+      "shap_top_word": "ghore",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "amra kal cinema dekhte jabo",
+      "p_hate": 0.016721142455935478,
+      "flagged": 0,
+      "shap_top_word": "kal",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "office theke ferar pothe traffic jam chilo",
+      "p_hate": 0.06584469974040985,
+      "flagged": 0,
+      "shap_top_word": "ferar",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "ma ranna korche, gondho ta darun",
+      "p_hate": 0.03753800690174103,
+      "flagged": 0,
+      "shap_top_word": "ranna",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "exam er jonno porashuna korte hocche",
+      "p_hate": 0.026155617088079453,
+      "flagged": 0,
+      "shap_top_word": "er",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "weekend e bondhuder shathe adda dilam",
+      "p_hate": 0.03173859417438507,
+      "flagged": 0,
+      "shap_top_word": "bondhuder",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "notun phone ta khub bhalo lagche",
+      "p_hate": 0.024516336619853973,
+      "flagged": 0,
+      "shap_top_word": "ta",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "subah subah hattte gele mon bhalo thake",
+      "p_hate": 0.04629189893603325,
+      "flagged": 0,
+      "shap_top_word": "hattte",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "cha khete khete golpo korlam",
+      "p_hate": 0.05023736134171486,
+      "flagged": 0,
+      "shap_top_word": "khete",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "boi mela te onek manush hoyeche ei bochor",
+      "p_hate": 0.671901285648346,
+      "flagged": 1,
+      "shap_top_word": "mela",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "aj office e onek kaj chilo",
+      "p_hate": 0.019870713353157043,
+      "flagged": 0,
+      "shap_top_word": "office",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "bikele hattte berhoi roj",
+      "p_hate": 0.5071482062339783,
+      "flagged": 0,
+      "shap_top_word": "hattte",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "notun bari te uthlam gotokal",
+      "p_hate": 0.033148519694805145,
+      "flagged": 0,
+      "shap_top_word": "te",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "market e shobji er dam beshi ajke",
+      "p_hate": 0.032161444425582886,
+      "flagged": 0,
+      "shap_top_word": "dam",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "class e notun teacher eshechen",
+      "p_hate": 0.03594832494854927,
+      "flagged": 0,
+      "shap_top_word": "teacher",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "gaan shona amar priyo shokh",
+      "p_hate": 0.04084571450948715,
+      "flagged": 0,
+      "shap_top_word": "gaan",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "rannay lobon ektu beshi hoye gechilo",
+      "p_hate": 0.0650087296962738,
+      "flagged": 0,
+      "shap_top_word": "ektu",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "shokale hattte gele mon fresh thake",
+      "p_hate": 0.1718936413526535,
+      "flagged": 0,
+      "shap_top_word": "hattte",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "ajke net khub slow chilo",
+      "p_hate": 0.04858620464801788,
+      "flagged": 0,
+      "shap_top_word": "khub",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "office er kaj shesh kore ghore firlam",
+      "p_hate": 0.1525365263223648,
+      "flagged": 0,
+      "shap_top_word": "ghore",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "notun laptop ta kinbo bhabchi",
+      "p_hate": 0.02876158617436886,
+      "flagged": 0,
+      "shap_top_word": "laptop",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "bikele cha ar biscuit khelam",
+      "p_hate": 0.2971639037132263,
+      "flagged": 0,
+      "shap_top_word": "biscuit",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "bus e onek shomoy dariye thakte holo",
+      "p_hate": 0.04620574414730072,
+      "flagged": 0,
+      "shap_top_word": "bus",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "bari ta ronger kaj hocche ekhon",
+      "p_hate": 0.34997692704200745,
+      "flagged": 0,
+      "shap_top_word": "ronger",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "phone er battery kom, charge dite hobe",
+      "p_hate": 0.07107366621494293,
+      "flagged": 0,
+      "shap_top_word": "battery",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "rastay khub jam chilo ajke",
+      "p_hate": 0.02790137566626072,
+      "flagged": 0,
+      "shap_top_word": "jam",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "school theke feriye khub klanto",
+      "p_hate": 0.04804735630750656,
+      "flagged": 0,
+      "shap_top_word": "khub",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "notun ekta boi kinlam library theke",
+      "p_hate": 0.10781263560056686,
+      "flagged": 0,
+      "shap_top_word": "ekta",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "weekend e ghure ashlam kachakachi kothao",
+      "p_hate": 0.09089674800634384,
+      "flagged": 0,
+      "shap_top_word": "kachakachi",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    },
+    {
+      "group": "B",
+      "word": "-",
+      "sentence": "ajker weather ta khub shundor",
+      "p_hate": 0.04611974582076073,
+      "flagged": 0,
+      "shap_top_word": "shundor",
+      "risky_word_is_top": NaN,
+      "risky_word_shap": NaN
+    }
+  ],
+  "summary": [
+    {
+      "Group": "A: with risky word",
+      "Sentences": 69,
+      "Flagged as hate": 18,
+      "False positive rate (%)": 26.08695652173913,
+      "Mean P(hate)": 0.3283737897872925,
+      "Risky word is SHAP top word (%)": 55.072463768115945
+    },
+    {
+      "Group": "B: without risky word",
+      "Sentences": 31,
+      "Flagged as hate": 1,
+      "False positive rate (%)": 3.225806451612903,
+      "Mean P(hate)": 0.1249951496720314,
+      "Risky word is SHAP top word (%)": NaN
+    }
+  ],
+  "word_stats": [
+    {
+      "Word": "kuttar",
+      "Training comments": 130,
+      "Hate comments": 122,
+      "Hate rate (%)": 93.84615384615384
+    },
+    {
+      "Word": "hijra",
+      "Training comments": 6,
+      "Hate comments": 5,
+      "Hate rate (%)": 83.33333333333334
+    },
+    {
+      "Word": "kukur",
+      "Training comments": 68,
+      "Hate comments": 56,
+      "Hate rate (%)": 82.35294117647058
+    },
+    {
+      "Word": "baccha",
+      "Training comments": 233,
+      "Hate comments": 179,
+      "Hate rate (%)": 76.82403433476395
+    },
+    {
+      "Word": "pagol",
+      "Training comments": 311,
+      "Hate comments": 184,
+      "Hate rate (%)": 59.163987138263664
+    },
+    {
+      "Word": "meye",
+      "Training comments": 246,
+      "Hate comments": 141,
+      "Hate rate (%)": 57.3170731707317
+    },
+    {
+      "Word": "mota",
+      "Training comments": 32,
+      "Hate comments": 17,
+      "Hate rate (%)": 53.125
+    },
+    {
+      "Word": "tore",
+      "Training comments": 245,
+      "Hate comments": 130,
+      "Hate rate (%)": 53.06122448979592
+    },
+    {
+      "Word": "tui",
+      "Training comments": 954,
+      "Hate comments": 487,
+      "Hate rate (%)": 51.0482180293501
+    },
+    {
+      "Word": "lomba",
+      "Training comments": 6,
+      "Hate comments": 3,
+      "Hate rate (%)": 50.0
+    },
+    {
+      "Word": "christian",
+      "Training comments": 2,
+      "Hate comments": 1,
+      "Hate rate (%)": 50.0
+    },
+    {
+      "Word": "bihari",
+      "Training comments": 2,
+      "Hate comments": 1,
+      "Hate rate (%)": 50.0
+    },
+    {
+      "Word": "khato",
+      "Training comments": 2,
+      "Hate comments": 1,
+      "Hate rate (%)": 50.0
+    },
+    {
+      "Word": "tor",
+      "Training comments": 1323,
+      "Hate comments": 642,
+      "Hate rate (%)": 48.52607709750567
+    },
+    {
+      "Word": "mohila",
+      "Training comments": 162,
+      "Hate comments": 76,
+      "Hate rate (%)": 46.913580246913575
+    },
+    {
+      "Word": "chele",
+      "Training comments": 124,
+      "Hate comments": 52,
+      "Hate rate (%)": 41.935483870967744
+    },
+    {
+      "Word": "kalo",
+      "Training comments": 12,
+      "Hate comments": 5,
+      "Hate rate (%)": 41.66666666666667
+    },
+    {
+      "Word": "muslim",
+      "Training comments": 42,
+      "Hate comments": 15,
+      "Hate rate (%)": 35.714285714285715
+    },
+    {
+      "Word": "india",
+      "Training comments": 253,
+      "Hate comments": 88,
+      "Hate rate (%)": 34.78260869565217
+    },
+    {
+      "Word": "awami",
+      "Training comments": 573,
+      "Hate comments": 194,
+      "Hate rate (%)": 33.85689354275742
+    },
+    {
+      "Word": "jamaat",
+      "Training comments": 9,
+      "Hate comments": 3,
+      "Hate rate (%)": 33.33333333333333
+    },
+    {
+      "Word": "patla",
+      "Training comments": 3,
+      "Hate comments": 1,
+      "Hate rate (%)": 33.33333333333333
+    },
+    {
+      "Word": "hindu",
+      "Training comments": 60,
+      "Hate comments": 18,
+      "Hate rate (%)": 30.0
+    },
+    {
+      "Word": "china",
+      "Training comments": 22,
+      "Hate comments": 6,
+      "Hate rate (%)": 27.27272727272727
+    },
+    {
+      "Word": "bnp",
+      "Training comments": 678,
+      "Hate comments": 161,
+      "Hate rate (%)": 23.74631268436578
+    },
+    {
+      "Word": "pakistan",
+      "Training comments": 89,
+      "Hate comments": 18,
+      "Hate rate (%)": 20.224719101123593
+    },
+    {
+      "Word": "buro",
+      "Training comments": 5,
+      "Hate comments": 1,
+      "Hate rate (%)": 20.0
+    },
+    {
+      "Word": "sarkar",
+      "Training comments": 48,
+      "Hate comments": 9,
+      "Hate rate (%)": 18.75
+    },
+    {
+      "Word": "adivasi",
+      "Training comments": 0,
+      "Hate comments": 0,
+      "Hate rate (%)": NaN
+    },
+    {
+      "Word": "bouddho",
+      "Training comments": 0,
+      "Hate comments": 0,
+      "Hate rate (%)": NaN
+    }
+  ]
+}

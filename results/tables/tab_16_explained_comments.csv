@@ -1,0 +1,9 @@
+ID,Case,Text,True categories,P(hate),Top LIME words,Top SHAP words,Top-3 overlap
+test_01167,"Hate, found (Political)",Sontrrasi busted durniti bajj khoni president Chuppu chokranto karri sontrrasi busted awamileaq der moddod,"Political, Personal Offense",0.8435088,"busted, Chuppu, Sontrrasi","busted, busted, sontrrasi",0.3333333333333333
+test_02428,"Hate, found (Religious)",dalalier Krishna Dalali Krishna,"Religious, Personal Offense",0.87768656,"Dalali, dalalier","dalalier, Dalali",0.6666666666666666
+test_02972,"Hate, found (Gender)",Egular theke dhaka sohorer magirao smart ase koek ta turm mukhostho kore ese vabse dr hoice,"Gender, Personal Offense, Origin",0.9641868,"magirao, Egular, koek","magirao, Egular, turm",0.6666666666666666
+test_03181,"Hate, found (Personal Offense)",Khankir polar kaner niche ekta marte parle police giri dekhaitam. Baler bacca,"Personal Offense, Abusive/Violence",0.98076576,"Khankir, bacca, Baler","Khankir, bacca, Baler",1.0
+test_02591,"Hate, found (Abusive/Violence)",Akhon bachar somoy aise. Ar vab chodau. Gopppo thamau tomra. Sobar khobor ase,"Personal Offense, Abusive/Violence",0.8267118,"chodau., bachar, somoy","chodau., bachar",0.6666666666666666
+test_01002,"Hate, missed",Tui kothay salar bata dasa sso,"Personal Offense, Abusive/Violence",0.47527045,"salar, bata, Tui","salar, bata, Tui",1.0
+test_00575,"Non-hate, wrongly flagged",Aho vatija.. Samne aho.... tumi to ekta... Futfute sundon... Tore hate paile .. Tor porone kintu jainga-o thakbe na....,-,0.62772304,"Tor, Tore, ekta...","ekta..., Tor, Tore",1.0
+test_01133,"Non-hate, correct",Marbe kano apnader desh e to low ache,-,0.06632687,"low, Marbe, to",Marbe,0.3333333333333333

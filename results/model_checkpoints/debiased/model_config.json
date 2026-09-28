@@ -1,0 +1,28 @@
+{
+  "model_name": "xlm-roberta-base",
+  "max_length": 128,
+  "dropout": 0.1,
+  "categories": [
+    "Political",
+    "Religious",
+    "Gender",
+    "Personal Offense",
+    "Abusive/Violence",
+    "Origin",
+    "Body Shaming",
+    "Misc"
+  ],
+  "weights_file": "best_model.pt",
+  "best_epoch": 2,
+  "binary_threshold": 0.48,
+  "category_thresholds": {
+    "Political": 0.57,
+    "Religious": 0.2,
+    "Gender": 0.15,
+    "Personal Offense": 0.52,
+    "Abusive/Violence": 0.46,
+    "Origin": 0.42,
+    "Body Shaming": 0.15,
+    "Misc": 0.2
+  }
+}

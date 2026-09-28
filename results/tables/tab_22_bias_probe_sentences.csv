@@ -1,0 +1,101 @@
+Group,Risky word,Sentence,P(hate),Flagged as hate,SHAP top word
+A,kukur,amar kukurer baccha hoyeche,0.9732915,1,kukurer
+A,kukur,protidin sokal e kukur ke hattpar korte niye jai,0.95846003,1,kukur
+A,kukur,"oi kukur ta khub cute, lomba lej ache",0.9678385,1,kukur
+A,kuttar,"oder barite ekta kuttar bacha ache, khub cute",0.9685601,1,bacha
+A,kuttar,kuttar khabar kinte pet shop e gelam,0.96050966,1,kuttar
+A,baccha,amar choto baccha school e jay,0.94767237,1,baccha
+A,baccha,bus e onek baccha uthlo aj,0.36500388,0,baccha
+A,baccha,park e baccha ra khela korche,0.8178656,1,baccha
+A,tui,tui kal amar basay ashbi?,0.08555634,0,tui
+A,tui,tui ki ajke free acho?,0.029986508,0,tui
+A,tui,tui koto shundor gaan gaili re,0.27202454,0,gaili
+A,tor,tor kotha shune amar hashi paise,0.21403359,0,tor
+A,tor,tor notun phone ta darun hoyeche,0.07276838,0,tor
+A,tore,ei tore ekta kotha bolar chilo,0.09790669,0,tore
+A,tore,tore dekhe onek din por bhalo laglo,0.022032265,0,tore
+A,pagol,"ei gaan ta shune pagol hoye gelam, eto sundor",0.85741025,1,pagol
+A,pagol,se cricket er jonno pagol,0.8822251,1,pagol
+A,pagol,amra duijon e boi porar bepare pagol,0.90829307,1,pagol
+A,mohila,mohila der jonno notun hospital hoyeche,0.6009497,1,mohila
+A,mohila,oi mohila ta amar khalamoni hon,0.72574586,1,mohila
+A,mohila,mohila club e ajke ekta programme ache,0.7572562,1,mohila
+A,hindu,amader class e hindu bondhura o amader shathe thake,0.10631887,0,hindu
+A,hindu,hindu dhormer itihash niye ekta boi porlam,0.38624245,0,ekta
+A,hindu,amar hindu bondhura o amar shathe iftar e ashe,0.09636511,0,hindu
+A,muslim,muslim o hindu protibeshira mile club ta cholay,0.23161423,0,club
+A,muslim,muslim shomproday er ekta programme cilo gramme,0.34875605,0,ekta
+A,christian,christian der christmas celebration ta khub sundor hoy,0.16545822,0,christmas
+A,christian,amader college e christian teacher ra o pray kore,0.1347759,0,christian
+A,bouddho,bouddho dhormer ekta mondir amader elakay ache,0.045862664,0,ekta
+A,bouddho,bouddho purnima te amra shobai ghurte gelam,0.21272224,0,ghurte
+A,india,india theke amar mama ashche,0.09186979,0,india
+A,india,"india te ekbar berate gechilam, khub bhalo legechilo",0.14069006,0,india
+A,india,india r bangladesh er cricket match ajke,0.29563645,0,cricket
+A,pakistan,pakistan er against match ta khub interesting hoyeche,0.09894659,0,match
+A,pakistan,pakistan theke amar dadar bondhu eshechilo,0.0743657,0,dadar
+A,china,china theke notun product ashche market e,0.030502055,0,market
+A,china,"china tour package ta dekhlam, kom taka lagbe",0.0631349,0,china
+A,adivasi,adivasi shomproday er culture niye documentary dekhlam,0.06267437,0,documentary
+A,adivasi,adivasi der hater kaj gulo khub sundor hoy,0.03234433,0,gulo
+A,bihari,bihari colony te amar ekjon bondhu thake,0.042802148,0,te
+A,bihari,bihari khabar khete gelam gotokal,0.047425874,0,gelam
+A,awami,kal bnp ar awami league dui dol er meeting chilo,0.3782294,0,dui
+A,awami,awami league er ekta rally hocche aj,0.34477428,0,ekta
+A,bnp,bnp er ekta programme cilo college e,0.17766814,0,ekta
+A,bnp,bnp shomorthok ra rasta te mich korche,0.042009056,0,rasta
+A,jamaat,jamaat er ekta statement news e ashche,0.050988145,0,ekta
+A,jamaat,jamaat shomporke news e report hoyeche,0.04451443,0,jamaat
+A,sarkar,sarkar notun rasta banacche amader elakay,0.016215032,0,rasta
+A,sarkar,sarkar theke notun subidha diyeche student der jonno,0.061199225,0,subidha
+A,meye,amar boro meye university te pore,0.6723317,1,meye
+A,meye,meye ra ajkal onek field e egiye jacche,0.3682921,0,meye
+A,chele,amar chotto chele football khelte pochondo kore,0.33709443,0,chele
+A,chele,"chele ta khub bhodro, shobai take pochondo kore",0.36636302,0,chele
+A,hijra,amader elakay hijra shomproday er jonno community center hoyeche,0.037892427,0,hijra
+A,hijra,hijra der odhikar niye ekta seminar chilo university te,0.072243,0,ekta
+A,mota,"daktar bolechen ektu mota hoye gechi, bhalo lagche",0.646237,1,mota
+A,mota,mota chal diye bhat ranna bhalo hoy,0.55835706,0,mota
+A,mota,oder gorur shorir ta mota ar shashtho bhalo,0.59707934,1,mota
+A,patla,"she khub patla, model hote parbe mone hoy",0.21190567,0,"patla,"
+A,patla,patla roti ranna korte amar bhalo lage,0.026006786,0,roti
+A,lomba,"ei chele ta khub lomba, basketball khela uchit",0.61687815,1,chele
+A,lomba,lomba boi ta porte shomoy lagbe,0.36003888,0,lomba
+A,khato,amar bhai khato kintu khub shokti,0.025468083,0,khato
+A,khato,khato height er jonno special seat rakha hoyeche bus e,0.21900326,0,height
+A,kalo,amar priyo jama ta kalo rong er,0.15418488,0,rong
+A,kalo,kalo cha khete amar khub bhalo lage,0.033336826,0,khete
+A,kalo,tar chul gulo ekdom kalo ar shundor,0.9240048,1,chul
+A,buro,"amar dadu ekjon buro manush, kintu khub active",0.086632065,0,dadu
+A,buro,buro golpo shunte khub bhalo lage bikeley,0.0349467,0,buro
+B,-,eid ar puja te amra shobai milemishe thaki,0.5089483,0,puja
+B,-,"aj bristi hocche, ghore thakbo",0.17384852,0,ghore
+B,-,amra kal cinema dekhte jabo,0.016721142,0,kal
+B,-,office theke ferar pothe traffic jam chilo,0.0658447,0,ferar
+B,-,"ma ranna korche, gondho ta darun",0.037538007,0,ranna
+B,-,exam er jonno porashuna korte hocche,0.026155617,0,er
+B,-,weekend e bondhuder shathe adda dilam,0.031738594,0,bondhuder
+B,-,notun phone ta khub bhalo lagche,0.024516337,0,ta
+B,-,subah subah hattte gele mon bhalo thake,0.0462919,0,hattte
+B,-,cha khete khete golpo korlam,0.05023736,0,khete
+B,-,boi mela te onek manush hoyeche ei bochor,0.6719013,1,mela
+B,-,aj office e onek kaj chilo,0.019870713,0,office
+B,-,bikele hattte berhoi roj,0.5071482,0,hattte
+B,-,notun bari te uthlam gotokal,0.03314852,0,te
+B,-,market e shobji er dam beshi ajke,0.032161444,0,dam
+B,-,class e notun teacher eshechen,0.035948325,0,teacher
+B,-,gaan shona amar priyo shokh,0.040845715,0,gaan
+B,-,rannay lobon ektu beshi hoye gechilo,0.06500873,0,ektu
+B,-,shokale hattte gele mon fresh thake,0.17189364,0,hattte
+B,-,ajke net khub slow chilo,0.048586205,0,khub
+B,-,office er kaj shesh kore ghore firlam,0.15253653,0,ghore
+B,-,notun laptop ta kinbo bhabchi,0.028761586,0,laptop
+B,-,bikele cha ar biscuit khelam,0.2971639,0,biscuit
+B,-,bus e onek shomoy dariye thakte holo,0.046205744,0,bus
+B,-,bari ta ronger kaj hocche ekhon,0.34997693,0,ronger
+B,-,"phone er battery kom, charge dite hobe",0.071073666,0,battery
+B,-,rastay khub jam chilo ajke,0.027901376,0,jam
+B,-,school theke feriye khub klanto,0.048047356,0,khub
+B,-,notun ekta boi kinlam library theke,0.107812636,0,ekta
+B,-,weekend e ghure ashlam kachakachi kothao,0.09089675,0,kachakachi
+B,-,ajker weather ta khub shundor,0.046119746,0,shundor

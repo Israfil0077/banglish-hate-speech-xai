@@ -1,0 +1,16 @@
+Content warning: these are real hateful comments. Take breaks, and stop if it becomes upsetting.
+
+Task: every comment on the Annotation tab is hate speech. Mark the words that make it hateful.
+
+1. Read the whole comment first. The grey row shows the comment one word per cell.
+2. In the white row under it, type 1 under every word that is a reason the comment is hateful:
+   insults, slurs, threats, abusive words, or words attacking a person or group.
+3. Mark only the words that are needed. If a phrase is needed, mark every word of the phrase.
+4. Do not mark a name of a person, party or group just because it appears. Mark it only if it is used as an insult.
+5. Punctuation or emoji stuck to a word count as part of that word.
+6. If you think nothing in the comment is hateful, type 1 in the "Nothing hateful" column and leave the words empty.
+7. The Hate categories column shows the dataset labels. Use it as context only.
+8. Work alone. Do not look at or discuss the other person's sheet until both are finished.
+9. Do not change the grey rows, the IDs or the order of the rows.
+
+A marked cell turns red. Leave unmarked cells empty (no 0 needed).

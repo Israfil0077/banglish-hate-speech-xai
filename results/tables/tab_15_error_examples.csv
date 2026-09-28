@@ -1,0 +1,11 @@
+Type,ID,Text,P(hate),True categories
+False negative,test_03352,Ekdom shoytan lagtese,5.223086,Personal Offense
+False negative,test_00302,Pasa vaai or take care korce,8.586246,Misc
+False negative,test_00134,Jahannam janis re beristar,38.237206,Personal Offense
+False negative,test_03316,Police amader tax khay...behave kub baje,10.502681,Personal Offense
+False negative,test_00515,Tore jonmo ki mujib sheikh diyeche,40.127716,"Personal Offense, Abusive/Violence"
+False positive,test_02756,DESH TAR MODDAY KE SORU HOILO.......,68.26795,-
+False positive,test_01347,Bedi fagol hoy gess,87.070724,-
+False positive,test_01310,Ami akta kapor kinci oita futa futa cilo,75.25585,-
+False positive,test_00507,tore India patabo,71.908775,-
+False positive,test_01427,Ar tor moto may guli wono may guli ra ja ato boro golay kos toy to nijar thik na friend ar husband ar nisos 10tar logay suya may toy mim ra ki kharap kos hmm,81.01787,-

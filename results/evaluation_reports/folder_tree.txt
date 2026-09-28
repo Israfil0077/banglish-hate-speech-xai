@@ -1,0 +1,21 @@
+ML_Project/
+├── data/
+│   ├── banth_xplain/
+│   ├── processed/
+│   └── raw/
+├── notebooks/
+│   └── 00_setup_drive_folders.ipynb
+├── report/
+│   └── figures/
+├── results/
+│   ├── evaluation_reports/
+│   │   └── environment.txt
+│   ├── figures/
+│   ├── model_checkpoints/
+│   ├── tables/
+│   └── ASSETS.md
+├── src/
+│   ├── augmentation/
+│   ├── evaluation/
+│   └── explainability/
+└── HateSpeech_Full_Project.ipynb

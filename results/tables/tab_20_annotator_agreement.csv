@@ -1,0 +1,10 @@
+Measure,Value
+Comments annotated by both,55
+Words compared,551
+Cohen's Kappa (word level),0.559
+Raw word agreement,0.784
+Comments with identical marks,0.291
+Words marked per comment (Annotator A),4.53
+Words marked per comment (Annotator B),3.93
+Comments annotated (Annotator A),93
+Comments annotated (Annotator B),57

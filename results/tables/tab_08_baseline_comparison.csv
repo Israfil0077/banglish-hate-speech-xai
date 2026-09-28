@@ -1,0 +1,9 @@
+Source,Model,Binary Macro-F1,Binary Macro-Acc.,Multi-label Macro-F1,Subset Acc.,Hamming Loss
+BanTH paper,BanglaBERT,76.5,81.04,20.82,54.08,7.26
+BanTH paper,BanglishBERT,75.07,80.62,20.61,52.74,7.42
+BanTH paper,mBERT,74.97,80.37,28.24,52.19,7.78
+BanTH paper,XLM-R,77.35,81.37,29.29,53.28,7.23
+BanTH paper,TB-BERT,76.27,79.25,30.17,54.19,7.18
+BanTH paper,TB-mBERT,77.36,82.57,27.07,54.71,7.28
+BanTH paper,GPT 4o,70.05,74.3,36.07,22.6,16.91
+BanTH paper,GPT 4o + Few-shot,68.77,74.18,39.53,26.76,14.16

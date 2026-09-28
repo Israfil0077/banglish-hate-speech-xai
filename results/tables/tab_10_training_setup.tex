@@ -1,0 +1,22 @@
+\begin{tabular}{ll}
+\toprule
+Setting & Value \\
+\midrule
+Pre-trained encoder & xlm-roberta-base \\
+Parameters & 278.1M \\
+Heads & binary (1 sigmoid) + categories (8 sigmoids) on first-token output \\
+Loss & BCE (binary) + BCE with pos. weight sqrt(neg/pos) (categories) \\
+Optimizer & AdamW, lr 2e-05, weight decay 0.01 \\
+LR schedule & linear warm-up (10\%) then linear decay \\
+Batch size & 32 \\
+Max sequence length & 128 tokens \\
+Epochs & max 5, early stopping patience 2 (val. loss); best epoch 4 \\
+Dropout & 0.1 \\
+Gradient clipping & 1.0 \\
+Precision & mixed (fp16) \\
+Decision thresholds & tuned on validation (binary 0.58) \\
+Random seed & 42 \\
+Hardware & Google Colab, Tesla T4 \\
+Training time & 18.4 min \\
+\bottomrule
+\end{tabular}

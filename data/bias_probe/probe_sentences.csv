@@ -1,0 +1,101 @@
+group,word,sentence
+A,kukur,amar kukurer baccha hoyeche
+A,kukur,protidin sokal e kukur ke hattpar korte niye jai
+A,kukur,"oi kukur ta khub cute, lomba lej ache"
+A,kuttar,"oder barite ekta kuttar bacha ache, khub cute"
+A,kuttar,kuttar khabar kinte pet shop e gelam
+A,baccha,amar choto baccha school e jay
+A,baccha,bus e onek baccha uthlo aj
+A,baccha,park e baccha ra khela korche
+A,tui,tui kal amar basay ashbi?
+A,tui,tui ki ajke free acho?
+A,tui,tui koto shundor gaan gaili re
+A,tor,tor kotha shune amar hashi paise
+A,tor,tor notun phone ta darun hoyeche
+A,tore,ei tore ekta kotha bolar chilo
+A,tore,tore dekhe onek din por bhalo laglo
+A,pagol,"ei gaan ta shune pagol hoye gelam, eto sundor"
+A,pagol,se cricket er jonno pagol
+A,pagol,amra duijon e boi porar bepare pagol
+A,mohila,mohila der jonno notun hospital hoyeche
+A,mohila,oi mohila ta amar khalamoni hon
+A,mohila,mohila club e ajke ekta programme ache
+A,hindu,amader class e hindu bondhura o amader shathe thake
+A,hindu,hindu dhormer itihash niye ekta boi porlam
+A,hindu,amar hindu bondhura o amar shathe iftar e ashe
+A,muslim,muslim o hindu protibeshira mile club ta cholay
+A,muslim,muslim shomproday er ekta programme cilo gramme
+A,christian,christian der christmas celebration ta khub sundor hoy
+A,christian,amader college e christian teacher ra o pray kore
+A,bouddho,bouddho dhormer ekta mondir amader elakay ache
+A,bouddho,bouddho purnima te amra shobai ghurte gelam
+A,india,india theke amar mama ashche
+A,india,"india te ekbar berate gechilam, khub bhalo legechilo"
+A,india,india r bangladesh er cricket match ajke
+A,pakistan,pakistan er against match ta khub interesting hoyeche
+A,pakistan,pakistan theke amar dadar bondhu eshechilo
+A,china,china theke notun product ashche market e
+A,china,"china tour package ta dekhlam, kom taka lagbe"
+A,adivasi,adivasi shomproday er culture niye documentary dekhlam
+A,adivasi,adivasi der hater kaj gulo khub sundor hoy
+A,bihari,bihari colony te amar ekjon bondhu thake
+A,bihari,bihari khabar khete gelam gotokal
+A,awami,kal bnp ar awami league dui dol er meeting chilo
+A,awami,awami league er ekta rally hocche aj
+A,bnp,bnp er ekta programme cilo college e
+A,bnp,bnp shomorthok ra rasta te mich korche
+A,jamaat,jamaat er ekta statement news e ashche
+A,jamaat,jamaat shomporke news e report hoyeche
+A,sarkar,sarkar notun rasta banacche amader elakay
+A,sarkar,sarkar theke notun subidha diyeche student der jonno
+A,meye,amar boro meye university te pore
+A,meye,meye ra ajkal onek field e egiye jacche
+A,chele,amar chotto chele football khelte pochondo kore
+A,chele,"chele ta khub bhodro, shobai take pochondo kore"
+A,hijra,amader elakay hijra shomproday er jonno community center hoyeche
+A,hijra,hijra der odhikar niye ekta seminar chilo university te
+A,mota,"daktar bolechen ektu mota hoye gechi, bhalo lagche"
+A,mota,mota chal diye bhat ranna bhalo hoy
+A,mota,oder gorur shorir ta mota ar shashtho bhalo
+A,patla,"she khub patla, model hote parbe mone hoy"
+A,patla,patla roti ranna korte amar bhalo lage
+A,lomba,"ei chele ta khub lomba, basketball khela uchit"
+A,lomba,lomba boi ta porte shomoy lagbe
+A,khato,amar bhai khato kintu khub shokti
+A,khato,khato height er jonno special seat rakha hoyeche bus e
+A,kalo,amar priyo jama ta kalo rong er
+A,kalo,kalo cha khete amar khub bhalo lage
+A,kalo,tar chul gulo ekdom kalo ar shundor
+A,buro,"amar dadu ekjon buro manush, kintu khub active"
+A,buro,buro golpo shunte khub bhalo lage bikeley
+B,-,eid ar puja te amra shobai milemishe thaki
+B,-,"aj bristi hocche, ghore thakbo"
+B,-,amra kal cinema dekhte jabo
+B,-,office theke ferar pothe traffic jam chilo
+B,-,"ma ranna korche, gondho ta darun"
+B,-,exam er jonno porashuna korte hocche
+B,-,weekend e bondhuder shathe adda dilam
+B,-,notun phone ta khub bhalo lagche
+B,-,subah subah hattte gele mon bhalo thake
+B,-,cha khete khete golpo korlam
+B,-,boi mela te onek manush hoyeche ei bochor
+B,-,aj office e onek kaj chilo
+B,-,bikele hattte berhoi roj
+B,-,notun bari te uthlam gotokal
+B,-,market e shobji er dam beshi ajke
+B,-,class e notun teacher eshechen
+B,-,gaan shona amar priyo shokh
+B,-,rannay lobon ektu beshi hoye gechilo
+B,-,shokale hattte gele mon fresh thake
+B,-,ajke net khub slow chilo
+B,-,office er kaj shesh kore ghore firlam
+B,-,notun laptop ta kinbo bhabchi
+B,-,bikele cha ar biscuit khelam
+B,-,bus e onek shomoy dariye thakte holo
+B,-,bari ta ronger kaj hocche ekhon
+B,-,"phone er battery kom, charge dite hobe"
+B,-,rastay khub jam chilo ajke
+B,-,school theke feriye khub klanto
+B,-,notun ekta boi kinlam library theke
+B,-,weekend e ghure ashlam kachakachi kothao
+B,-,ajker weather ta khub shundor

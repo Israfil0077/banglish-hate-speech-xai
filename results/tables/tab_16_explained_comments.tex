@@ -1,0 +1,14 @@
+\begin{tabular}{llllrllr}
+\toprule
+ID & Case & Text & True categories & P(hate) & Top LIME words & Top SHAP words & Top-3 overlap \\
+\midrule
+test\_01167 & Hate, found (Political) & Sontrrasi busted durniti bajj khoni presid... & Political, Personal Offense & 0.84 & busted, Chuppu, Sontrrasi & busted, busted, sontrrasi & 0.33 \\
+test\_02428 & Hate, found (Religious) & dalalier Krishna Dalali Krishna & Religious, Personal Offense & 0.88 & Dalali, dalalier & dalalier, Dalali & 0.67 \\
+test\_02972 & Hate, found (Gender) & Egular theke dhaka sohorer magirao smart a... & Gender, Personal Offense, Origin & 0.96 & magirao, Egular, koek & magirao, Egular, turm & 0.67 \\
+test\_03181 & Hate, found (Personal Offense) & Khankir polar kaner niche ekta marte parle... & Personal Offense, Abusive/Violence & 0.98 & Khankir, bacca, Baler & Khankir, bacca, Baler & 1.00 \\
+test\_02591 & Hate, found (Abusive/Violence) & Akhon bachar somoy aise. Ar vab chodau. Go... & Personal Offense, Abusive/Violence & 0.83 & chodau., bachar, somoy & chodau., bachar & 0.67 \\
+test\_01002 & Hate, missed & Tui kothay salar bata dasa sso & Personal Offense, Abusive/Violence & 0.48 & salar, bata, Tui & salar, bata, Tui & 1.00 \\
+test\_00575 & Non-hate, wrongly flagged & Aho vatija.. Samne aho.... tumi to ekta...... & - & 0.63 & Tor, Tore, ekta... & ekta..., Tor, Tore & 1.00 \\
+test\_01133 & Non-hate, correct & Marbe kano apnader desh e to low ache & - & 0.07 & low, Marbe, to & Marbe & 0.33 \\
+\bottomrule
+\end{tabular}

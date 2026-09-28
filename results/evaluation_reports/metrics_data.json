@@ -1,0 +1,109 @@
+{
+  "step": "data",
+  "notebook": "01_data_exploration.ipynb",
+  "dataset": "aplycaebous/BanTH (HuggingFace), official splits",
+  "date": "2026-09-28T06:23:38",
+  "seed": 42,
+  "split_sizes": {
+    "train": 29879,
+    "validation": 3736,
+    "test": 3735
+  },
+  "hate_counts": {
+    "train": 8495,
+    "validation": 1062,
+    "test": 1062
+  },
+  "category_counts": {
+    "train": {
+      "Political": 978,
+      "Religious": 110,
+      "Gender": 180,
+      "Personal Offense": 5752,
+      "Abusive/Violence": 2335,
+      "Origin": 178,
+      "Body Shaming": 92,
+      "Misc": 207
+    },
+    "validation": {
+      "Political": 111,
+      "Religious": 22,
+      "Gender": 24,
+      "Personal Offense": 710,
+      "Abusive/Violence": 293,
+      "Origin": 26,
+      "Body Shaming": 17,
+      "Misc": 25
+    },
+    "test": {
+      "Political": 117,
+      "Religious": 18,
+      "Gender": 23,
+      "Personal Offense": 715,
+      "Abusive/Violence": 304,
+      "Origin": 23,
+      "Body Shaming": 14,
+      "Misc": 30
+    }
+  },
+  "label_category_consistency": {
+    "train": {
+      "nonhate_with_category": 0,
+      "hate_without_category": 0
+    },
+    "validation": {
+      "nonhate_with_category": 0,
+      "hate_without_category": 0
+    },
+    "test": {
+      "nonhate_with_category": 0,
+      "hate_without_category": 0
+    }
+  },
+  "cleaning": {
+    "train": {
+      "rows_with_url": 2,
+      "rows_changed_by_cleaning": 3505,
+      "rows_empty_after_cleaning": 0
+    },
+    "validation": {
+      "rows_with_url": 0,
+      "rows_changed_by_cleaning": 477,
+      "rows_empty_after_cleaning": 0
+    },
+    "test": {
+      "rows_with_url": 1,
+      "rows_changed_by_cleaning": 466,
+      "rows_empty_after_cleaning": 0
+    }
+  },
+  "duplicates": {
+    "train_duplicate_rows": 8,
+    "train_texts_with_conflicting_binary_label": 2,
+    "validation_rows_also_in_train": 1,
+    "test_rows_also_in_train": 1
+  },
+  "word_length": {
+    "train": {
+      "Mean": 10.169717862043576,
+      "Median": 7.0,
+      "95th pct.": 27.0,
+      "99th pct.": 55.0,
+      "Max": 368.0
+    },
+    "validation": {
+      "Mean": 10.176927194860813,
+      "Median": 7.0,
+      "95th pct.": 28.0,
+      "99th pct.": 54.0,
+      "Max": 225.0
+    },
+    "test": {
+      "Mean": 10.047925033467202,
+      "Median": 7.0,
+      "95th pct.": 27.0,
+      "99th pct.": 48.0,
+      "Max": 187.0
+    }
+  }
+}

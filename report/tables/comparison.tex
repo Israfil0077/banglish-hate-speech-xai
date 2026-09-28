@@ -1,0 +1,16 @@
+\begin{tabular}{lrrrrr}
+\toprule
+Model & Bin. F1 & Bin. Acc. & ML F1 & Subset & Hamm.$\downarrow$ \\
+\midrule
+BanglaBERT & 76.50 & 81.04 & 20.82 & 54.08 & 7.26 \\
+mBERT & 74.97 & 80.37 & 28.24 & 52.19 & 7.78 \\
+XLM-R & 77.35 & 81.37 & 29.29 & 53.28 & 7.23 \\
+TB-BERT & 76.27 & 79.25 & 30.17 & 54.19 & 7.18 \\
+TB-mBERT & 77.36 & 82.57 & 27.07 & 54.71 & 7.28 \\
+GPT 4o & 70.05 & 74.30 & 36.07 & 22.60 & 16.91 \\
+GPT 4o + Few-shot & 68.77 & 74.18 & 39.53 & 26.76 & 14.16 \\
+\midrule
+Ours, ML on all & 76.23 & 75.99 & 19.53 & 72.37 & 4.34 \\
+Ours, ML on hate & 76.23 & 75.99 & 28.89 & 31.45 & 11.03 \\
+\bottomrule
+\end{tabular}

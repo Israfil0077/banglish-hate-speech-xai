@@ -1,0 +1,193 @@
+{
+  "step": "training",
+  "notebook": "04_model_training.ipynb",
+  "date": "2026-09-28T07:18:57",
+  "seed": 42,
+  "model": "xlm-roberta-base",
+  "config": {
+    "model_name": "xlm-roberta-base",
+    "batch_size": 32,
+    "eval_batch_size": 64,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "max_epochs": 5,
+    "patience": 2,
+    "dropout": 0.1,
+    "grad_clip": 1.0,
+    "fp16": true,
+    "seed": 42,
+    "max_length": 128
+  },
+  "n_parameters": 278050569,
+  "token_length": {
+    "median": 15.0,
+    "p95": 54.0,
+    "p99": 108.0,
+    "max": 557,
+    "max_length_chosen": 128,
+    "share_truncated_pct": 0.6091234646407175
+  },
+  "gpu": "Tesla T4",
+  "training_minutes": 18.43108362754186,
+  "best_epoch": 4,
+  "thresholds": 0.58,
+  "category_thresholds": {
+    "Political": 0.75,
+    "Religious": 0.44,
+    "Gender": 0.71,
+    "Personal Offense": 0.62,
+    "Abusive/Violence": 0.68,
+    "Origin": 0.84,
+    "Body Shaming": 0.63,
+    "Misc": 0.31
+  },
+  "checkpoint": "/content/drive/MyDrive/ML_Project/results/model_checkpoints/best_model.pt",
+  "test_binary": [
+    {
+      "Threshold": "0.5",
+      "Macro-F1": 75.50385717631207,
+      "Macro-Acc.": 76.20318058171165,
+      "Accuracy": 79.54484605087015,
+      "Hate Precision": 62.88927335640139,
+      "Hate Recall": 68.45574387947269,
+      "Hate F1": 65.55455365193869
+    },
+    {
+      "Threshold": "Tuned on validation",
+      "Macro-F1": 76.23043957145713,
+      "Macro-Acc.": 75.99440735033956,
+      "Accuracy": 80.82998661311915,
+      "Hate Precision": 66.79611650485437,
+      "Hate Recall": 64.7834274952919,
+      "Hate F1": 65.77437858508604
+    }
+  ],
+  "test_multilabel": [
+    {
+      "Threshold": "0.5",
+      "Evaluated on": "All test comments (n = 3735)",
+      "Macro-F1": 20.440169791683026,
+      "Micro-F1": 45.98997493734336,
+      "Subset Acc.": 66.3186077643909,
+      "Hamming Loss": 5.769745649263721
+    },
+    {
+      "Threshold": "0.5",
+      "Evaluated on": "Hate test comments (n = 1062)",
+      "Macro-F1": 30.08479096881994,
+      "Micro-F1": 58.93271461716937,
+      "Subset Acc.": 22.88135593220339,
+      "Hamming Loss": 12.5
+    },
+    {
+      "Threshold": "Tuned on validation",
+      "Evaluated on": "All test comments (n = 3735)",
+      "Macro-F1": 19.529357820777662,
+      "Micro-F1": 48.79589419660482,
+      "Subset Acc.": 72.36947791164658,
+      "Hamming Loss": 4.340696117804551
+    },
+    {
+      "Threshold": "Tuned on validation",
+      "Evaluated on": "Hate test comments (n = 1062)",
+      "Macro-F1": 28.89384285054486,
+      "Micro-F1": 57.65928603705377,
+      "Subset Acc.": 31.45009416195857,
+      "Hamming Loss": 11.028719397363465
+    }
+  ],
+  "test_per_category": [
+    {
+      "Category": "Political",
+      "Train count": 978,
+      "Test support": 117,
+      "Threshold": 0.75,
+      "Precision": 38.613861386138616,
+      "Recall": 33.33333333333333,
+      "F1 (all comments)": 35.77981651376147,
+      "F1 (hate comments)": 50.74626865671642
+    },
+    {
+      "Category": "Religious",
+      "Train count": 110,
+      "Test support": 18,
+      "Threshold": 0.44,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "F1 (all comments)": 0.0,
+      "F1 (hate comments)": 19.047619047619047
+    },
+    {
+      "Category": "Gender",
+      "Train count": 180,
+      "Test support": 23,
+      "Threshold": 0.71,
+      "Precision": 8.571428571428571,
+      "Recall": 13.043478260869565,
+      "F1 (all comments)": 10.344827586206897,
+      "F1 (hate comments)": 23.52941176470588
+    },
+    {
+      "Category": "Personal Offense",
+      "Train count": 5752,
+      "Test support": 715,
+      "Threshold": 0.62,
+      "Precision": 51.451800232288036,
+      "Recall": 61.95804195804195,
+      "F1 (all comments)": 56.21827411167513,
+      "F1 (hate comments)": 67.06857573474001
+    },
+    {
+      "Category": "Abusive/Violence",
+      "Train count": 2335,
+      "Test support": 304,
+      "Threshold": 0.68,
+      "Precision": 50.775193798449614,
+      "Recall": 43.09210526315789,
+      "F1 (all comments)": 46.619217081850536,
+      "F1 (hate comments)": 50.09560229445506
+    },
+    {
+      "Category": "Origin",
+      "Train count": 178,
+      "Test support": 23,
+      "Threshold": 0.84,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "F1 (all comments)": 0.0,
+      "F1 (hate comments)": 0.0
+    },
+    {
+      "Category": "Body Shaming",
+      "Train count": 92,
+      "Test support": 14,
+      "Threshold": 0.63,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "F1 (all comments)": 0.0,
+      "F1 (hate comments)": 12.5
+    },
+    {
+      "Category": "Misc",
+      "Train count": 207,
+      "Test support": 30,
+      "Threshold": 0.31,
+      "Precision": 8.0,
+      "Recall": 6.666666666666667,
+      "F1 (all comments)": 7.2727272727272725,
+      "F1 (hate comments)": 8.16326530612245
+    }
+  ],
+  "test_confusion_matrix": [
+    [
+      2331,
+      342
+    ],
+    [
+      374,
+      688
+    ]
+  ],
+  "units": "percent"
+}

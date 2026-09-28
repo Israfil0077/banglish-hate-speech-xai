@@ -1,0 +1,25 @@
+# Model weights are ~1 GB each (GitHub limit is 100 MB). They stay on Google Drive.
+results/model_checkpoints/*.pt
+results/model_checkpoints/**/*.pt
+
+# BanTH raw and processed splits: download them with notebooks/01_data_exploration.ipynb
+data/raw/
+data/processed/
+
+# Annotation sheets are named after the annotators; the anonymised result is data/banth_xplain/banth_xplain_mini.csv
+data/banth_xplain/*.xlsx
+
+# Google Drive / Windows / editor files
+desktop.ini
+*.gdoc
+*.gsheet
+.ipynb_checkpoints/
+__pycache__/
+
+# Build files
+report_for_overleaf.zip
+report/*.aux
+report/*.log
+report/*.bbl
+report/*.blg
+report/*.out

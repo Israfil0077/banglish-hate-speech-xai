@@ -1,0 +1,10 @@
+Category,Paper train,HF train,Paper test,HF test,Paper total,HF total
+Political,958,978,122,117,1200,1206
+Religious,111,110,14,18,139,150
+Gender,154,180,20,23,193,227
+Personal Offense,5572,5752,696,715,6964,7177
+Abusive/Violence,2312,2335,289,304,2888,2932
+Origin,171,178,22,23,214,227
+Body Shaming,68,92,10,14,86,123
+Misc,,207,,30,,262
+Hate (binary),,8495,,1062,10282,10619
