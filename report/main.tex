@@ -12,6 +12,19 @@
 \usetikzlibrary{positioning,arrows.meta,shapes.misc}
 \usepackage{url}
 \usepackage[hidelinks]{hyperref}
+\usepackage{stfloats}
+
+% Let tables and figures sit close to the text that discusses them.
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.07}
+\renewcommand{\floatpagefraction}{0.85}
+\renewcommand{\dbltopfraction}{0.9}
+\renewcommand{\dblfloatpagefraction}{0.85}
+\setcounter{topnumber}{3}
+\setcounter{bottomnumber}{2}
+\setcounter{totalnumber}{5}
+\setcounter{dbltopnumber}{2}
 
 % All numbers quoted in the text come from results/ through this generated file.
 \input{numbers}
@@ -24,15 +37,15 @@
 \title{Explainable Multi-Label Hate Speech Detection in Transliterated Bangla Using Transformer Models}
 
 \author{
-\IEEEauthorblockN{Md. Israfil Hossain\IEEEauthorrefmark{1},
-Md. Biplob\IEEEauthorrefmark{1},
-Diab Alam\IEEEauthorrefmark{1},
-Ifta Faisal\IEEEauthorrefmark{1},
-Md. Faiyaz Ullah Adin\IEEEauthorrefmark{1}}
+\IEEEauthorblockN{Md. Israfil Hossain (0112230585)\IEEEauthorrefmark{1},
+Md. Biplob (0112230592)\IEEEauthorrefmark{1},
+Diab Alam (0112230582)\IEEEauthorrefmark{1},\\
+Ifta Faisal (011222324)\IEEEauthorrefmark{1},
+Md. Faiyaz Ullah Adin (0112230961)\IEEEauthorrefmark{1}}
 \IEEEauthorblockA{\IEEEauthorrefmark{1}Department of Computer Science and Engineering, United International University, Dhaka, Bangladesh\\
-Course: CSE 4889 Machine Learning\\
-% TODO: add student IDs, e.g. Md. Israfil Hossain (ID: 0112XXXXXX)
-Student IDs: [to be added]}
+Course: CSE 4889 Machine Learning
+% student IDs are given after each name
+}
 }
 
 \maketitle
@@ -62,24 +75,7 @@ Content moderators, non-governmental organisations that monitor online harm, and
 \item A deployed web application that shows the verdict, the target categories and the words behind each decision.
 \end{itemize}
 
-% ======================================================================
-\section{Related Work}
-
-\subsection{Bangla Hate Speech Datasets}
-BD-SHS~\cite{romim2022bdshs} provides more than 50,000 hierarchically annotated Bangla-script comments. BanglaMultiHate~\cite{hasan2026banglamultihate} jointly annotates hate type, severity and target, and compares zero-shot and LoRA-tuned large language models with BanglaBERT. For code-mixed Bangla-English, Fahim et al.~\cite{fahim2025abusive} built a 2,700-comment binary abusive-language dataset with a deep learning ensemble. BanTH~\cite{haider2025banth} is presented as the first multi-label hate speech dataset for transliterated Bangla; it benchmarks fine-tuned encoders, encoders further pre-trained on transliterated text, and GPT prompting strategies, but does not address explanation.
-
-\subsection{Multi-Label Hate Speech in Other Languages}
-K-MHaS~\cite{lee2022kmhas} annotates Korean news comments with eight overlapping hate categories, motivated by the intersectionality of hate speech. Its category scheme is close to that of BanTH, but neither work evaluates explanations.
-
-\subsection{Explainable Hate Speech with Rationales}
-HateXplain~\cite{mathew2021hatexplain} introduced word-level human rationales for English hate speech and the plausibility and faithfulness metrics we adopt, and showed that strong classifiers do not necessarily produce good explanations. HateBRXplain~\cite{salles2025hatebrxplain} added rationales for Brazilian Portuguese and found that LIME and SHAP explanations were plausible but not faithful for the best models. MFTCXplain~\cite{trager2025mftcxplain} provides span-level rationales and moral categories for multilingual hate speech and finds limited alignment between large language model rationales and human ones, and Ahmed et al.~\cite{ahmed2024bilstmlime} combined a BiLSTM with LIME for English multi-label detection without human evaluation of the explanations.
-
-\subsection{Explainability for Code-Mixed Text}
-For Hindi-English misogyny detection, Yadav et al. evaluated SHAP and gradient-based explanations in a user study~\cite{yadav2026userbased} and built a multimodal explainable web application with LIME and SHAP~\cite{yadav2026multimodal}. Both address a single label (misogyny) rather than multi-label hate categories.
-
-Table~\ref{tab:related} summarises these works. None of them combines transliterated Bangla, multi-label targets, human-rationale evaluation and faithfulness testing.
-
-\begin{table*}[t]
+\begin{table*}[!t]
 \caption{Comparison With Related Work}
 \label{tab:related}
 \centering
@@ -107,6 +103,23 @@ Yadav et al.~\cite{yadav2026multimodal} & Hindi-English & \no & LIME, SHAP & \no
 \end{table*}
 
 % ======================================================================
+\section{Related Work}
+
+\subsection{Bangla Hate Speech Datasets}
+BD-SHS~\cite{romim2022bdshs} provides more than 50,000 hierarchically annotated Bangla-script comments. BanglaMultiHate~\cite{hasan2026banglamultihate} jointly annotates hate type, severity and target, and compares zero-shot and LoRA-tuned large language models with BanglaBERT. For code-mixed Bangla-English, Fahim et al.~\cite{fahim2025abusive} built a 2,700-comment binary abusive-language dataset with a deep learning ensemble. BanTH~\cite{haider2025banth} is presented as the first multi-label hate speech dataset for transliterated Bangla; it benchmarks fine-tuned encoders, encoders further pre-trained on transliterated text, and GPT prompting strategies, but does not address explanation.
+
+\subsection{Multi-Label Hate Speech in Other Languages}
+K-MHaS~\cite{lee2022kmhas} annotates Korean news comments with eight overlapping hate categories, motivated by the intersectionality of hate speech. Its category scheme is close to that of BanTH, but neither work evaluates explanations.
+
+\subsection{Explainable Hate Speech with Rationales}
+HateXplain~\cite{mathew2021hatexplain} introduced word-level human rationales for English hate speech and the plausibility and faithfulness metrics we adopt, and showed that strong classifiers do not necessarily produce good explanations. HateBRXplain~\cite{salles2025hatebrxplain} added rationales for Brazilian Portuguese and found that LIME and SHAP explanations were plausible but not faithful for the best models. MFTCXplain~\cite{trager2025mftcxplain} provides span-level rationales and moral categories for multilingual hate speech and finds limited alignment between large language model rationales and human ones, and Ahmed et al.~\cite{ahmed2024bilstmlime} combined a BiLSTM with LIME for English multi-label detection without human evaluation of the explanations.
+
+\subsection{Explainability for Code-Mixed Text}
+For Hindi-English misogyny detection, Yadav et al. evaluated SHAP and gradient-based explanations in a user study~\cite{yadav2026userbased} and built a multimodal explainable web application with LIME and SHAP~\cite{yadav2026multimodal}. Both address a single label (misogyny) rather than multi-label hate categories.
+
+Table~\ref{tab:related} summarises these works. None of them combines transliterated Bangla, multi-label targets, human-rationale evaluation and faithfulness testing.
+
+% ======================================================================
 \section{Dataset}
 \label{sec:dataset}
 
@@ -115,7 +128,7 @@ BanTH~\cite{haider2025banth} contains \nTotal{} YouTube comments in transliterat
 
 Table~\ref{tab:labels} and Fig.~\ref{fig:balance} show the label distribution. The categories are highly imbalanced: Personal Offense has \personalOffenseTrain{} training examples while Body Shaming has only \bodyShamingTrain{}, and the test split contains just \bodyShamingTest{} Body Shaming, \religiousTest{} Religious and \originTest{} Origin comments.
 
-\begin{table}[t]
+\begin{table}[!htb]
 \caption{Label Distribution in the Official BanTH Splits}
 \label{tab:labels}
 \centering
@@ -123,7 +136,7 @@ Table~\ref{tab:labels} and Fig.~\ref{fig:balance} show the label distribution. T
 \input{tables/label_distribution}
 \end{table}
 
-\begin{figure}[t]
+\begin{figure}[!htb]
 \centering
 \includegraphics[width=\columnwidth]{figures/fig_02_class_balance.png}
 \caption{Class distribution in the training split: (a) binary label, (b) the eight hate categories.}
@@ -151,7 +164,7 @@ To evaluate explanations we built a small rationale-annotated subset of the test
 \subsection{Architecture}
 Fig.~\ref{fig:arch} shows the system. A comment is tokenised and encoded by XLM-RoBERTa (base, \nParams{}M parameters)~\cite{conneau2020xlmr}. The representation of the first token feeds two linear heads: a binary head with one sigmoid output and a category head with eight sigmoid outputs. Sigmoid outputs allow any number of categories per comment. We chose XLM-R because it was the strongest conventionally fine-tuned encoder in the BanTH benchmark and because its multilingual sub-word vocabulary covers Latin-script Bangla and English. Categories are only reported for comments predicted as hate, mirroring the two-stage setup of BanTH.
 
-\begin{figure}[t]
+\begin{figure}[!htb]
 \centering
 \resizebox{\columnwidth}{!}{%
 \begin{tikzpicture}[
@@ -194,7 +207,7 @@ Both heads use binary cross-entropy, and the total loss is their sum:
 \end{equation}
 where $w_c = \sqrt{N^{-}_c / N^{+}_c}$ up-weights positive examples of category $c$ ($N^{+}_c$ and $N^{-}_c$ are its positive and negative training counts). The square root limits the effect of the rarest categories. We follow the BanTH fine-tuning setup where possible (learning rate $2\times10^{-5}$, batch size 32, up to five epochs, early stopping on validation loss). The maximum sequence length is \maxLen{} tokens, which covers 99\% of training comments (\truncPct\% are truncated). Decision thresholds for the binary output and for each category are tuned on the validation split by maximising F1; the test split is never used for tuning. Table~\ref{tab:setup} lists the full setup. We used Hugging Face Transformers~\cite{wolf2020transformers}, PyTorch~\cite{paszke2019pytorch} and scikit-learn~\cite{pedregosa2011sklearn}.
 
-\begin{table}[t]
+\begin{table}[!htb]
 \caption{Training Setup}
 \label{tab:setup}
 \centering
@@ -230,7 +243,7 @@ As a mitigation, we retrained the model with oversampling: words that occur in a
 \subsection{Classification}
 Table~\ref{tab:comparison} compares our model with the published BanTH results. Our binary macro-F1 of \binF\% is \gapBin{} points below the XLM-R baseline (\blXlmrBin\%) and below the best published model, \blBestBinModel{} (\blBestBin\%), which was further pre-trained on transliterated text. On hate comments, our category macro-F1 of \mlFhate\% is \gapMl{} points below the published XLM-R (\blXlmrMl\%). We therefore consider the model on par with the published fine-tuned encoders, not better. Few-shot GPT-4o obtains the highest category macro-F1 (\blBestMl\%) but a much lower binary score.
 
-\begin{table}[t]
+\begin{table}[!htb]
 \caption{Test Results Compared With Published BanTH Baselines (\%)}
 \label{tab:comparison}
 \centering
@@ -244,7 +257,7 @@ Two differences affect this comparison. First, our macro-accuracy (\binMacroAcc\
 
 Table~\ref{tab:binary} gives the binary results at the default threshold of 0.5 and at the validation-tuned threshold (\binThr). Fig.~\ref{fig:confusion} shows that \pctFN\% of hate comments are missed and \pctFP\% of non-hate comments are wrongly flagged. Training took \trainMinutes{} minutes on a Colab T4 GPU; the validation loss was lowest at epoch \bestEpoch{}.
 
-\begin{table}[t]
+\begin{table}[!htb]
 \caption{Binary Results on the Test Split (\%)}
 \label{tab:binary}
 \centering
@@ -252,7 +265,7 @@ Table~\ref{tab:binary} gives the binary results at the default threshold of 0.5 
 \resizebox{\columnwidth}{!}{\input{tables/binary_results}}
 \end{table}
 
-\begin{figure}[t]
+\begin{figure}[!htb]
 \centering
 \includegraphics[width=0.72\columnwidth]{figures/fig_05_confusion_matrix.png}
 \caption{Binary confusion matrix on the test split (tuned threshold). Percentages are relative to the true class.}
@@ -262,7 +275,7 @@ Table~\ref{tab:binary} gives the binary results at the default threshold of 0.5 
 \subsection{Per-Category Results}
 Table~\ref{tab:percat} and Fig.~\ref{fig:percat} show a clear dependence on category size. Personal Offense (F1 \catPO\%), Abusive/Violence (\catAV\%) and Political (\catPol\%) are learned reasonably, whereas Religious, Origin and Body Shaming reach an F1 of zero on all test comments. These categories have 14 to 23 test comments, so their thresholds, tuned on a similarly small validation set, do not transfer to the test split, and single errors change their scores considerably.
 
-\begin{table}[t]
+\begin{table}[!htb]
 \caption{Per-Category Test Results (\%)}
 \label{tab:percat}
 \centering
@@ -272,7 +285,7 @@ Table~\ref{tab:percat} and Fig.~\ref{fig:percat} show a clear dependence on cate
 \footnotesize F1: all test comments; F1\textsubscript{hate}: hate comments only.
 \end{table}
 
-\begin{figure}[t]
+\begin{figure}[!htb]
 \centering
 \includegraphics[width=0.85\columnwidth]{figures/fig_06_per_category_f1.png}
 \caption{Test F1 per category. The number of test comments per category is given in brackets.}
@@ -282,7 +295,7 @@ Table~\ref{tab:percat} and Fig.~\ref{fig:percat} show a clear dependence on cate
 \subsection{Plausibility}
 Table~\ref{tab:plaus} shows that both methods agree with human rationales far better than the random baseline. Against Annotator A (\plNA{} comments), SHAP reaches a token F1 of \tokFShapA{} and LIME \tokFLimeA, against \tokFRandomA{} for random scores; the ranking is the same against Annotator B. The two methods also largely agree with each other: on a separate set of eight test comments selected by a fixed rule, they share on average \topThreeOverlap{} of their top-three words. Fig.~\ref{fig:human} shows one comment on which both annotators and both methods mark nearly the same words.
 
-\begin{table}[t]
+\begin{table}[!htb]
 \caption{Plausibility Against Human Rationales}
 \label{tab:plaus}
 \centering
@@ -290,17 +303,17 @@ Table~\ref{tab:plaus} shows that both methods agree with human rationales far be
 \input{tables/plausibility}
 \end{table}
 
-\begin{figure*}[t]
+\begin{figure}[!htb]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/fig_08_human_vs_model_test_01274.png}
+\includegraphics[width=\columnwidth,trim={0 0 222bp 0},clip]{figures/fig_08_human_vs_model_test_01274.png}
 \caption{Words marked by the two annotators (a, b) and the top words selected by LIME (c) and SHAP (d) for one test comment. Both methods rank the informal pronoun \emph{tui} (``you'') above \emph{kha}, which the annotators marked.}
 \label{fig:human}
-\end{figure*}
+\end{figure}
 
 \subsection{Faithfulness}
 Table~\ref{tab:faith} shows that the explanations are faithful to the model. Deleting the top SHAP words lowers the hate probability by \compShap{} on average, and the top LIME words by \compLime, compared with \compRandom{} for random words. Keeping only the top words even raises the probability (negative sufficiency). This differs from the HateBRXplain finding that plausible explanations were not faithful~\cite{salles2025hatebrxplain}; one possible explanation is that hate in BanTH is often carried by explicit insult words. The human rationales are also comprehensive (\compHuman), which indicates that the model largely relies on the words that people consider hateful.
 
-\begin{table}[t]
+\begin{table}[!htb]
 \caption{Faithfulness on \faithN{} Annotated Test Comments}
 \label{tab:faith}
 \centering
@@ -315,7 +328,7 @@ The explanations point to a recurring error. In the comment of Fig.~\ref{fig:hum
 \label{sec:bias}
 Table~\ref{tab:bias} and Fig.~\ref{fig:bias} confirm the pattern. \biasFlagA{} of \biasNA{} harmless sentences with a risky word (\biasFprA\%) were flagged as hate, against \biasFlagB{} of \biasNB{} (\biasFprB\%) without one, and SHAP named the risky word as the top reason in \biasShapTop\% of the first group. The training data explain why: comments containing \emph{kuttar} are hate in \hrKuttar\% of cases, \emph{kukur} in \hrKukur\% and \emph{baccha} in \hrBaccha\%, against \trainHatePct\% overall. Group terms such as \emph{hindu} (\hrHindu\%) and \emph{bnp} (\hrBnp\%) are not strongly tied to hate in the data, and harmless sentences with them were not flagged. The bias therefore concerns insult-associated vocabulary rather than mentions of religious or political groups.
 
-\begin{table}[t]
+\begin{table}[!htb]
 \caption{Keyword-Bias Test on Harmless Sentences}
 \label{tab:bias}
 \centering
@@ -325,7 +338,7 @@ Table~\ref{tab:bias} and Fig.~\ref{fig:bias} confirm the pattern. \biasFlagA{} o
 \footnotesize All sentences are non-hateful, so every flagged sentence is a false positive.
 \end{table}
 
-\begin{figure}[t]
+\begin{figure}[!htb]
 \centering
 \includegraphics[width=0.9\columnwidth]{figures/fig_10_keyword_bias.png}
 \caption{Predicted hate probability of harmless sentences with (A) and without (B) insult-associated words. Points right of the dashed threshold are false positives.}
@@ -338,7 +351,7 @@ Table~\ref{tab:debias} and Fig.~\ref{fig:debias} compare the main model with the
 
 The fix is not free. Binary macro-F1 dropped by \debBinDrop{} points to \debBinF\%, and category macro-F1 on hate comments dropped by \debMlDrop{} points to \debMlF\%. The validation loss was lowest at epoch \debBestEpoch{}, so the category head was trained for fewer epochs than in the main model, which may explain part of this drop. We therefore keep the main model as our primary result and report the oversampled model as evidence that the bias can be reduced with existing data, at a cost that future work should address, for example with rationale-supervised training~\cite{mathew2021hatexplain}.
 
-\begin{table}[t]
+\begin{table}[!htb]
 \caption{Effect of Oversampling on Accuracy and False Positive Rates (\%)}
 \label{tab:debias}
 \centering
@@ -348,7 +361,7 @@ The fix is not free. Binary macro-F1 dropped by \debBinDrop{} points to \debBinF
 \footnotesize ML F1 on hate comments. Probe A/B: harmless sentences with/without a risky word. Test w/, w/o: non-hate test comments with/without a listed word.
 \end{table}
 
-\begin{figure}[t]
+\begin{figure}[!htb]
 \centering
 \includegraphics[width=0.9\columnwidth]{figures/fig_11_debias_fpr.png}
 \caption{False positive rates of the main model and the model trained with oversampling.}
@@ -362,7 +375,7 @@ Results of the mitigation experiment are pending.
 \section{Demo System}
 We deployed the model as a Gradio~\cite{abid2019gradio} web application that runs from Google Colab with a public link (Fig.~\ref{fig:demo}). A user enters a comment or selects an example; the application shows the verdict with its probability and decision threshold, the SHAP or LIME word highlights, and the eight category scores with the detected categories marked. Explanations are computed on demand within a few seconds on a T4 GPU. A separate list of harmless sentences from the keyword-bias test shows the known weakness, and an information panel reports the main evaluation results, read from the saved result files. The intended users are content moderators and monitoring organisations: the highlights let them check a flag quickly instead of trusting the label. The application is a research prototype meant to assist human decisions, not to remove content automatically.
 
-\begin{figure}[t]
+\begin{figure}[!htb]
 \centering
 \includegraphics[width=\columnwidth]{figures/fig_09_demo_hate.png}
 \caption{The web application analysing a hate comment: verdict, SHAP word attributions and category scores.}
